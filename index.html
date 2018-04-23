@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Teste Front-End</title>
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navbar -->
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand ml-5 mr-5 ml-5" href="#">Admin</a>
+            <a href="#menu-toggle" class="ml-5" id="menu-toggle" title="Open Menu"><img class="icon" src="svg/menu.svg" alt="menu"></a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mr-4 mt-2 mt-lg-0">
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search here..." aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit"><img class="icon" src="svg/magnifying-glass.svg" alt="magnifying-glass"></button>
+              </form>
+            </div>
+            <div class="inline mr-5">
+              <img class="icon mr-4" src="svg/bell.svg" alt="bell">
+              <img class="icon mr-4" src="svg/envelope-closed.svg" alt="envelope-closed">
+              <img class="icon" src="svg/people.svg" alt="people">
+            </div>
+            <div class="btn-group mr-5">
+              <button type="button" class="btn btn-info">Username</button>
+              <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Profile</a>
+              <a class="dropdown-item" href="#">Settings</a>
+              <a class="dropdown-item" href="#">Help</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Logout</a>
+            </div>
+          </div>
+        </nav>
+
+                <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav bg-info">
+
+              <li class="nav-item d-inline">
+                <a class="nav-link dropdown-item" href="#"><img class="icon mr-3" src="svg/dashboard.svg" alt="dashboard">Dashboard</a>
+              </li>
+              <li class="nav-item d-inline">
+                <a class="nav-link dropdown-item" href="#"><img class="icon mr-3" src="svg/monitor.svg" alt="monitor">Layouts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-item" href="#"><img class="icon mr-3" src="svg/pencil.svg" alt="pencil">Forms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-item" href="#"><img class="icon mr-3" src="svg/spreadsheet.svg" alt="spreadsheet">Tables</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-item" href="#"><img class="icon mr-3" src="svg/signal.svg" alt="signal">Data</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-item" href="#"><img class="icon mr-3" src="svg/file.svg" alt="file">Pages</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-item" href="#"><img class="icon mr-3" src="svg/phone.svg" alt="phone">Mobile</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-item" href="#"><img class="icon mr-3" src="svg/envelope-closed.svg" alt="envelope-closed">Email</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-item" href="#"><img class="icon mr-3" src="svg/chat.svg" alt="chat">Chat</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-item" href="#"><img class="icon mr-3" src="svg/wrench.svg" alt="wrench">Settings</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-item" href="#"><img class="icon mr-3" src="svg/brush.svg" alt="brush">Personalize</a>
+              </li>
+              </li>
+              <li class="nav-item logout">
+                <a class="nav-link dropdown-item" href="#"><img class="icon mr-3" src="svg/x.svg" alt="x">Logout</a>
+              </li>
+            </ul>
+                </div>
+                <!-- /#sidebar-wrapper -->
+
+                <!-- Page Content -->
+                <div class="container-fluid" id="dashboard">
+                            <h3>Dashboard</h3>
+                            <div id="home-dash">
+                                <a class="inline mr-3" href="#"><img class="icon mr-2" src="svg/home.svg" alt="home">Home</a>
+                                <a class="inline" href="#">Dashboard</a>
+                            </div>
+                        </div>
+
+                <div id="page-content-wrapper">
+                    <div class="container-fluid">
+                        <div class="container m-auto">
+                            
+                            <div class="row justify-content-center">
+                              <div class="primary col-4 col-md-2"><img class="big-icon float-right mt-3" src="svg/cart.svg" alt="cart"></div>
+                              <div class="primary col-4 col-md-2"><img class="big-icon float-right mt-3" src="svg/dollar.svg" alt="dollar"></div>
+                              <div class="primary col-4 col-md-2"><img class="big-icon float-right mt-3" src="svg/graph.svg" alt="graph"></div>
+                              <div class="primary col-4 col-md-2"><img class="big-icon float-right mt-3" src="svg/people.svg" alt="people"></div>
+                            </div>
+
+                            <div class="row justify-content-center">
+                                <div class="secondary col-10 col-md-6 clearfix">
+                                    <h5 class="mt-3">Network Performance</h5>
+                                    <p class="wrap-responsive"><img class="grafico float-left mr-5 img-fluid" src="img/grafico.png" alt="grafico">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    
+                                </div>
+                              <div class="secondary col-5 col-md-3 clearfix">
+                                <img class="chat mt-3 img-fluid" src="img/chat.png" alt="chat">
+                              </div>
+
+                            </div>
+
+                            <div class="row justify-content-center">
+                              <div class="tertiary col-5 col-md-3 mb-5 d-flex p-2">
+                                <img class="profile mt-3 img-fluid" src="img/profile.jpg" alt="profile">
+                              </div>
+                              <div class="tertiary scroll col-10 col-md-6">
+                                <h5 class="mt-3">To do list</h5>
+                                <ul class="list-to-do">
+                                  <li class="to-do"><input class="mr-3" type="checkbox">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.</li>
+                                  <li class="to-do"><input class="mr-3" type="checkbox">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.</li>
+                                  <li class="to-do"><input class="mr-3" type="checkbox">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.</li>
+                                  <li class="to-do"><input class="mr-3" type="checkbox">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.</li>
+                                  <li class="to-do"><input class="mr-3" type="checkbox">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.</li>
+                                </ul>
+                              </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="card text-center footer">
+              <div class="card-body">
+                <p class="card-text">Developed by Natacha Romano</p>
+                <a href="https://drive.google.com/file/d/15efQk_Fz0_Dw4Tf3Y5Cf0ubCahmf4ZYi/view?usp=sharing" target="_blank" class="btn btn-info">Open my Resume</a>
+              </div>
+            </div>
+                <!-- /#page-content-wrapper -->
+            </div>
+            
+    <!-- /#wrapper -->
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
